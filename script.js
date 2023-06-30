@@ -32,10 +32,9 @@ function getComputerChoice (randomNumber){
 }
 
 function getPlayerChoice() {
-    playerSelection = 'rock';
+    playerSelection = prompt('Rock, Paper or Scissors?').toLowerCase();
+    console.log(playerSelection);
 }
 
-let playerSelection ='';
-let computerSelection ='';
 
 console.log(playground())
